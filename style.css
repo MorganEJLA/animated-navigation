@@ -1,12 +1,13 @@
-
+/* font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Comfortaa', cursive; */
 
 :root {
   --primaryColor: #fff;
   --navColor1: #21292c;
-  --navColor2: #aa3e39;
-  --navColor3: #aa6e39;
-  --navColor4: #236267;
-  --navColor5: #2c8437;
+  --navColor2: #29506d;
+  --navColor3: #aa8e39;
+  --navColor4: #343477;
+  --navColor5: #aa7939;
 }
 
 html {
@@ -16,13 +17,21 @@ html {
 body {
   margin: 0;
   background: #000;
-
+  font-family: Carrois, sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
+/*Overlay*/
 
-
-
+.overlay {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 /* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
@@ -74,7 +83,7 @@ section {
 }
 
 section#home {
-  background-image: url("https://images.unsplash.com/photo-1581453904507-626ddb717f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+  background-image: url("https://images.unsplash.com/photo-1518998083755-1a99aadcc419?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80");
   background-size: cover;
   background-position: center center;
 }
